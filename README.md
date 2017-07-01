@@ -1,38 +1,24 @@
 # Vifi
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/vifi`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a simple wifi signal strength monitoring application for macOS to help visualize the signal strength of the access point your computer is connected to over time.
 
-TODO: Delete this and the text above, and describe your gem
+#### 💻   📶   📏   🛫   📈
+
+This is mostly just an example application to explore how to use [chart_js](https://github.com/picatz/chart_js), because it's fun!
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'vifi'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install vifi
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ vifi
 
-## Development
+## Web Application
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+Once the `vifi` server is running. You can go to the local application to start visualizing the signal strength: `http://0.0.0.0:3141/`
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/vifi. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+![example](http://imgur.com/mOpMo7m)
 
 ## License
 
