@@ -1,3 +1,7 @@
-module Vifi
-  VERSION = "1.0.6"
+class Vifi
+  VERSION = "1.0.7"
+
+  def self.version
+    VERSION
+  end
 end
