@@ -18,7 +18,7 @@ This is mostly just an example application to explore how to use [chart_js](http
 
 Once the `vifi` server is running. You can go to the local application to start visualizing the signal strength: `http://0.0.0.0:3141/`
 
-![example](http://imgur.com/mOpMo7m)
+![example](https://i.imgur.com/mOpMo7m.png)
 
 ## License
 
